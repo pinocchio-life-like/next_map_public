@@ -1,0 +1,26 @@
+{
+  "name": "nextmap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^1.2.1",
+    "@react-google-maps/api": "^2.19.2",
+    "@supabase/supabase-js": "^2.38.4",
+    "next": "14.0.0",
+    "react": "^18",
+    "react-cool-onclickoutside": "^1.7.0",
+    "react-dom": "^18",
+    "use-places-autocomplete": "^4.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
